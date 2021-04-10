@@ -21,7 +21,7 @@ class _HomeScreenState extends State<HomeScreen> {
         return Scaffold(
           bottomNavigationBar: Container(
             color: Colors.black,
-            height: sizingInformation.localWidgetSize.height * 0.08,
+            height: sizingInformation.localWidgetSize.height * 0.088,
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
@@ -116,16 +116,16 @@ class _HomeScreenState extends State<HomeScreen> {
           );
         },
         child: Container(
-          margin: EdgeInsets.only(top: 10),
-          width: 60,
+          margin: EdgeInsets.only(top: 16.0),
+          width: 64,
           height: sizingInformation.localWidgetSize.height * 0.07,
           child: Stack(
             children: <Widget>[
               Align(
                 alignment: Alignment.topLeft,
                 child: Container(
-                  width: 20,
-                  height: sizingInformation.localWidgetSize.height * 0.05,
+                  width: 22,
+                  height: sizingInformation.localWidgetSize.height * 0.045,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(10)),
                       color: Colors.blue),
@@ -134,8 +134,8 @@ class _HomeScreenState extends State<HomeScreen> {
               Align(
                 alignment: Alignment.topRight,
                 child: Container(
-                  width: 20,
-                  height: sizingInformation.localWidgetSize.height * 0.05,
+                  width: 22,
+                  height: sizingInformation.localWidgetSize.height * 0.045,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(10)),
                       color: Colors.red),
@@ -144,8 +144,8 @@ class _HomeScreenState extends State<HomeScreen> {
               Align(
                 alignment: Alignment.topCenter,
                 child: Container(
-                  width: 50,
-                  height: sizingInformation.localWidgetSize.height * 0.05,
+                  width: 52,
+                  height: sizingInformation.localWidgetSize.height * 0.045,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(10)),
                       color: Colors.white),
