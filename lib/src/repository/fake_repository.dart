@@ -3,36 +3,41 @@ import 'package:flutter_tiktok_ui/src/model/data_model.dart';
 class FakeRepository {
   static List<DataModel> data = [
     DataModel(
-        name: "@BenhanLie",
-        description:
-            "I know what you're thinking!! wait for it there is something",
-        forwardCount: "13.12k",
-        likesCount: "24.4k",
-        messagesCount: "110.3k",
-        musicName: "Music name is here",
-        tags: "#mindreader, #magician #magictrick",
-        profileUrl: "assets/profile1.jpg"),
+      name: "@lambiengcode",
+      description:
+          "I know what you're thinking!! wait for it there is something",
+      forwardCount: "10.2k",
+      likesCount: "2.4k",
+      messagesCount: "120.9k",
+      musicName: "Music name is here",
+      tags: "#mindreader, #magician #magictrick",
+      profileUrl:
+          "https://images.unsplash.com/photo-1516726817505-f5ed825624d8?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8bW9kZWx8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    ),
     DataModel(
       name: "@Nayan_551",
       description:
           "I know what you're thinking!! wait for it there is something",
-      forwardCount: "3.12k",
+      forwardCount: "6.2k",
       likesCount: "44.4k",
       messagesCount: "10.3k",
       musicName: "Flutter fun - original sounds - ",
       tags: "#fun #flutter #ui #openSource,",
-      profileUrl: "assets/profile2.jpeg",
+      profileUrl:
+          "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8bW9kZWx8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     ),
     DataModel(
-        name: "@BenhanLie",
-        description:
-            "I know what you're thinking!! wait for it there is something",
-        forwardCount: "13.12k",
-        likesCount: "24.4k",
-        messagesCount: "110.3k",
-        musicName: "Music name is here riyaz-xyz music name",
-        tags: "#greenscreen, #magician #magictrick",
-        profileUrl: "assets/profile3.jpeg"),
+      name: "@BenhanLie",
+      description:
+          "I know what you're thinking!! wait for it there is something",
+      forwardCount: "60.12k",
+      likesCount: "24.4k",
+      messagesCount: "110.3k",
+      musicName: "Music name is here riyaz-xyz music name",
+      tags: "#greenscreen, #magician #magictrick",
+      profileUrl:
+          "https://images.unsplash.com/photo-1508606572321-901ea443707f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDB8fG1vZGVsfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    ),
   ];
   static List<String> dataList = ["60s", "15s", "Templates"];
   static List<String> imageData = [

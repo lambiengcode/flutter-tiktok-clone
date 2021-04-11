@@ -113,7 +113,7 @@ class _VideoTiktokPlayerState extends State<VideoTiktokPlayer>
                       borderRadius: BorderRadius.all(Radius.circular(50))),
                   child: ClipRRect(
                     borderRadius: BorderRadius.all(Radius.circular(50)),
-                    child: Image.asset(
+                    child: Image.network(
                       FakeRepository.data[index].profileUrl,
                       fit: BoxFit.cover,
                     ),
@@ -183,7 +183,9 @@ class _VideoTiktokPlayerState extends State<VideoTiktokPlayer>
           AnimatedBuilder(
             builder: (BuildContext context, Widget child) {
               return Transform.rotate(
-                  angle: _animationController.value * 6.3, child: child);
+                angle: _animationController.value * 6.3,
+                child: child,
+              );
             },
             animation: _animationController,
             child: Container(
@@ -202,7 +204,7 @@ class _VideoTiktokPlayerState extends State<VideoTiktokPlayer>
                 ),
                 child: ClipRRect(
                     borderRadius: BorderRadius.all(Radius.circular(50)),
-                    child: Image.asset(
+                    child: Image.network(
                       FakeRepository.data[index].profileUrl,
                       fit: BoxFit.cover,
                     )),
@@ -224,15 +226,21 @@ class _VideoTiktokPlayerState extends State<VideoTiktokPlayer>
           Container(
             padding: EdgeInsets.symmetric(horizontal: 5, vertical: 5),
             decoration: BoxDecoration(
-                color: Colors.black38,
-                borderRadius: BorderRadius.all(Radius.circular(8))),
+              color: Colors.black38,
+              borderRadius: BorderRadius.all(
+                Radius.circular(8),
+              ),
+            ),
             child: Row(
               children: <Widget>[
                 Container(
                     padding: EdgeInsets.symmetric(horizontal: 4, vertical: 4),
                     decoration: BoxDecoration(
-                        color: Colors.orange,
-                        borderRadius: BorderRadius.all(Radius.circular(30))),
+                      color: Colors.black,
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(30),
+                      ),
+                    ),
                     child: Icon(
                       Icons.play_arrow,
                       size: 15,
